@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Filterable Gallery</h2>
+
+      <div class="button">
+        <a href="#" class="btn" data-filter="all">All</a>
+        <a href="#" class="btn" data-filter="logo">Logo Design</a>
+        <a href="#" class="btn" data-filter="web">Web Design</a>
+        <a href="#" class="btn" data-filter="mobile">Mobile Apps</a>
+      </div>
+
+      <div class="box" id="store-items">
+        <div class="store-items web">
+          <img src="img/web1.jpg" class="store-img" alt="" />
+        </div>
+        <div class="store-items web">
+          <img src="img/web2.jpg" class="store-img" alt="" />
+        </div>
+        <div class="store-items logo">
+          <img src="img/logo1.jpg" class="store-img" alt="" />
+        </div>
+        <div class="store-items mobile">
+          <img src="img/mob1.jpg" class="store-img" alt="" />
+        </div>
+      </div>
+    </div>
+<!-----in html we write comment like this not with//--->
+    <script src="app.js"></script>
+  </body>
+</html>
