@@ -1,6 +1,6 @@
 (function () {
   const buttons = document.querySelectorAll(".btn");
-  const storeImages = document.querySelectorAll(".store-items");vfvfv
+  const storeImages = document.querySelectorAll(".store-items");
 
   buttons.forEach((button) => {
     button.addEventListener("click", (e) => {
